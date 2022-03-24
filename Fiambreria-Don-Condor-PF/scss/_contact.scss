@@ -1,0 +1,138 @@
+/* Clases seccion Contacto */
+.classDivContact {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    margin-top: 220px;
+  }
+  
+  .classContact {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    margin-top: 110px;
+  }
+  
+  .claseContacto {
+    font: normal 50px Cookie, Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  div button.btn {
+    border: solid 3px orange;
+    background-color: rgba(221, 156, 36, 0);
+  }
+  div button.btn {
+    margin-bottom: 12px;
+  }
+  
+  div button.btn:hover {
+    border: solid 2px rgb(189, 140, 50);
+    background-color: rgb(133, 97, 30);
+  }
+  
+  .divRedes {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 590px;
+  }
+  
+  .divRedes img {
+    width: 70px;
+    height: 70px;
+  }
+  .divParrafoContact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    margin-top: 500px;
+  }
+  .divParrafoContact p{
+  font-weight: bold;
+  color: black;
+  width:700px;
+  border-radius:3px;
+  margin: auto 30px;
+  border: double 4px black; 
+  font: 18px Arial, Helvetica, sans-serif;
+  }
+  .bodyContact {
+    height: 750px;
+  }
+  
+  @media only screen and (max-width: 768px) and (min-width: 300px) {
+    .bodyContact {
+      height: 930px;
+    }
+    
+    .divRedes {
+      width: 100%;
+      position: absolute;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 870px;
+    }
+    .divRedes img {
+      width: 40px;
+      height: 40px;
+    }
+    .divParrafoContact {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      text-align: center;
+      margin-top: 825px;
+    }
+    .divParrafoContact p{
+    font-weight: bold;
+    color: black;
+    width:700px;
+    border-radius:3px;
+    margin: auto 30px;
+    border: double 4px black; 
+    font: 18px Arial, Helvetica, sans-serif;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 500px) and (min-width: 300px) {
+    .divParrafoContact p{
+      font-weight: bold;
+      color: black;
+      width:700px;
+      border-radius:3px;
+      margin: auto 30px;
+      border: double 4px black; 
+      font: 14px Arial, Helvetica, sans-serif;
+      }
+  }
+  
+  
+  div.classDivContact label {
+    font-size: 12px;
+    line-height: 28px;
+    font: 16px Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+  }
+  form.row {
+    border-radius: 3px;
+    margin: 5px;
+    border: double black 4px;
+  }
+  
+  .divRedes img:hover {
+    transition: all 0.5s;
+    transform: scale(1.3, 1.3);
+  }
+  
+  div.classDivContact form {
+    background-image: url(../imagenes/imagenMadera.jpg);
+  }
+  
+  
+  
